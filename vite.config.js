@@ -8,5 +8,8 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base:"/morse-code"
+  base:"/morse-code",
+  server:{
+    host:'0.0.0.0'
+  }
 })
